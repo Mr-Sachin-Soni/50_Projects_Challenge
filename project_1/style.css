@@ -47,3 +47,16 @@ body {
 .panel.active h2 {
   opacity: 1;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+  .panel {
+    height: 60vh;
+    flex: 0.3;
+  }
+
+  .panel.active {
+    flex: 1;
+  }
+}
